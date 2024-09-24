@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalix - serviços oferecidos</title>
+
+    <!-- flavicon -->
+     <link rel="shorcut icon" href="imagens/favicon.png">
+
+     <!-- Meta -->
+      <meta name="Description" content="serviços oferecidos pela Minimalix">
+      <meta name="keyworld" content="Front-end, html, css, js">
+
+    <!-- CSS externo -->
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- iniciando cabeçalho -->
+     <header> 
+        <div class="limitador">
+
+            <!-- logotipo -->
+             <h1> <a href="index.html" title="Pagina inicial Simplicity">Minimalix</a></h1>
+
+             <!-- menu que aparece ao clicar no botao ou em telas maiores -->
+              <nav>
+
+                <ul class="menu">
+                    <li><a href="index.html"></a></li>
+                    <li><a href="produtos.html"></a></li>
+                    <li><a href="servicos.html"></a></li>
+                    <li><a href="contato.html"></a></li>
+
+                 </ul>
+              </nav>
+        </div>
+
+     </header>
+    <!-- fim do cabeçalho -->
+
+    <!-- ---------------------------------------------------------------- -->
+
+    <!-- area de trabalho principal -->
+     <main class="contato">
+        <section class="limitador de conteudo">
+            <h2> Contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. libero dolorum, maxime et consequatur architect perspiciatis impedit ullan. facilis sapiente magni accusantium consectetur qui omnis, consequatur autem iusto sunt tenetur id!</p>
+            <p>Incidunt illum, voluptatem reprehenderit quibusdam minus temporibus rem fugiat odir earum ipsum ratione excepturi quasi fugit suscipit libero, recusadae repellat culpa. aspernatyur natus amnis ad aperiam magnam suscipit, praesentium quasi.</p>
+
+            <!-- iniciando o formulario -->
+             <form action="https://formspree.io/f/mnqwljwk" method="post" id="my-form">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div>
+                    <label for="data">Data de nascimento:</label>
+                    <input type="date" name="data" id="data" required>
+                </div>
+
+                <div>
+                    <label for="telefome">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite apenas números, incluindo o DDD" required>
+                </div>
+
+                <div>
+                    <label for="Documento">CPF ou CNPJ:</label>
+                    <input type="tel" name="Documento" id="Documento" required>
+                </div>
+
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div>
+                    <p>Gênero:</p>
+
+                    <input type="radio" name="Genero" id="Masculino">
+
+                    <input type="radio" name="Genero" id="Feminino">
+
+                    <input type="radio" name="Genero" id="Outros">
+                </div>
+
+                <div>
+                    <p>Interesses:</p>
+
+                    <input type="checkbox" name="Interesses" id="desing" value="desing">
+                    <label for="desing">Desing</label>
+
+                    <input type="checkbox" name="Interesses" id="marketing" value="marketing">
+                    <label for="marketing">Marketing</label>
+
+                    <input type="checkbox" name="programaçao" id="programaçao" value="programaçao">
+                    <label for="programaçao">Programação</label>
+                </div>
+
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input type="text" name="endereço" id="cep" maxlength="9" required>
+                    <b id="status"></b>
+                </div>
+
+                <div>
+                    <label for="endereço">Endereço:</label>
+                    <input type="text" name="endereço" id="cep" maxlength="30">
+                </div>
+
+                <div>
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" name="bairro" id="Bairro" maxlength="30">
+                </div>
+
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade">
+
+                    <div>
+                        <label for="estado">Estado:</label>
+                        <input type="text" name="estado" id="estado" maxlength="30">
+                    </div>
+
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <select name="assunto" id="assunto">
+                            <option> Dúvidas</option>
+                            <option> Elogios</option>
+                            <option> Reclamações</option>
+                            <option> Pedidos</option>
+                            <option> Outros</option> 
+                        </select>
+
+                        <div> 
+                            <label for="mensagem">Mensagem:</label>
+                            <br>
+
+                            <textarea name="mensagem" id="mensagem" cols="20" rows="5" maxlength="100"></textarea>
+                        </div>
+
+                        <button type="submit">Enviar dados.</button>
+                    </div>
+                </div>
+
+             </form>
+
+        </section>
+
+     </main>
+
+    <!-- fim da Area de conteudo principal  -->
+    <!-- ------------------------------------------------------------------------ -->
+       <footer>
+        <p>Minimalix e um site ficticios desenvolvido no Senai/sesi &copy; - alguns direitos reservados - 2024</p>
+       </footer>
+
+</body>
+</html>
